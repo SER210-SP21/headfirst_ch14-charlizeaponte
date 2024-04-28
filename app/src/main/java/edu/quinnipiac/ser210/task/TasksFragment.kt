@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
-import com.hfad.tasks.databinding.FragmentTasksBinding
+import edu.quinnipiac.ser210.task.databinding.FragmentTasksBinding
+
+
 class TasksFragment : Fragment() {
     private var _binding: FragmentTasksBinding? = null
     private val binding get() = _binding!!
